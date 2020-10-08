@@ -1,0 +1,51 @@
+// Font importing //
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+
+// Basic Resets //
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: $vary-ligh-gray;
+  font-size: $main-font-size;
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+// FlexBox
+
+.flex{
+  display: flex;
+
+  &-jc-c{
+    justify-content: center;
+  }
+
+  &-jc-sb{
+    justify-content: space-between;
+  }
+
+  &-ai-c{
+    align-items: center;
+  }
+}

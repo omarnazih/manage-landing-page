@@ -1,0 +1,24 @@
+.header{
+  // nav_bar
+  & .nav{
+    padding: 1.5rem 1rem;
+  }
+
+  &_logo{
+
+  }
+
+  &_mobile_menu{
+    
+    span{
+      height: 0.235rem;
+      width: 2rem;
+      background-color: $very-dark-blue;
+      margin: 5px;
+      display: block;
+    }
+  }
+
+
+
+}
