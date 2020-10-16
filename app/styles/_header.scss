@@ -4,18 +4,26 @@
     padding: 1.5rem 1rem;
   }
 
-  &_logo{
+  // &_logo{
 
-  }
+  // }
 
   &_mobile_menu{
-    
+    display: none;
+    // Custom Display None
     span{
       height: 0.235rem;
       width: 2rem;
       background-color: $very-dark-blue;
       margin: 5px;
       display: block;
+    }
+  }
+
+  &_nav_links{
+
+    .nav-link{
+      margin: 0 0.5rem;
     }
   }
 

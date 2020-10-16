@@ -24,6 +24,7 @@ h6 {
 
 a {
   text-decoration: none;
+  color: #1d1e25;
 }
 
 li {
@@ -54,8 +55,25 @@ li {
           align-items: center;
 }
 
+.btn {
+  color: #fafafa;
+  background-color: #f25f3a;
+  border-radius: 50px;
+  padding: 0.653rem 1.853rem;
+  -webkit-transition: ease 0.2s;
+  transition: ease 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
 .header .nav {
   padding: 1.5rem 1rem;
+}
+
+.header_mobile_menu {
+  display: none;
 }
 
 .header_mobile_menu span {
@@ -64,5 +82,9 @@ li {
   background-color: #1d1e25;
   margin: 5px;
   display: block;
+}
+
+.header_nav_links .nav-link {
+  margin: 0 0.5rem;
 }
 /*# sourceMappingURL=style.css.map */
